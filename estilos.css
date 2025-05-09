@@ -234,6 +234,7 @@ footer {
     }
     iframe {
         width:100% ;
+        margin-bottom: 10px;
     }
     .formu {
         width: 100%;
