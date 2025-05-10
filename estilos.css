@@ -9,6 +9,7 @@ body {
     color: #333;
     line-height: 1.6;
 }
+/* cabeçalho*/
 header {
     background-color: #111;
     padding: 20px;
@@ -41,6 +42,9 @@ nav ul li a {
 nav ul li a:hover {
     color: #ff6600;
 }
+/* cabeçalho */
+
+/*serviços*/
 #Servicos h1 {
     text-align: center;
     font-weight: bold;
@@ -85,7 +89,7 @@ nav ul li a:hover {
   .conteudo ul li {
     list-style: none;
   }  
-
+/*serviços*/
 
 #banner {
     background-color: #ff6600;
@@ -99,22 +103,8 @@ section {
     border-radius: 8px;
 
 }
-#contato {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;  
-    background-color: #111;
-}
-.formu {
-    display: inline-flex;
-    flex-direction: column;
-    padding: 10px;
-    border: 2px solid #ff6600;
-    border-radius: 8px;  
-}
-label {
-    color: #fff;
-}
+
+
 #img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -132,6 +122,20 @@ label {
     transform: scale(1.05);
 }
 
+/* fale conosco*/
+#contato {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;  
+    background-color: #111;
+}
+.formu {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid #ff6600;
+    border-radius: 8px;  
+}
 .fale h2, .fale p {
     color: #fff;
 }
@@ -157,6 +161,9 @@ button:hover {
     border:2px solid #ff6600;
     cursor: pointer;
 }
+label {
+    color: #fff;
+}
 input {
     padding: 10px;
     border-radius: 5px;
@@ -168,6 +175,9 @@ textarea {
     margin-bottom: 10px;
     cursor: pointer;
 }
+/* fale conosco*/
+
+/* depoimento de cliente*/
 #depoimentos {
     padding: 40px 20px;
     background-color: #f7f7f7;
@@ -209,7 +219,9 @@ textarea {
     font-size: 0.95rem;
     line-height: 1.4;
   }
-  
+  /* depoimento de cliente*/
+
+  /*rodapé*/
 footer {  
     background-color: #111;
     color: white;
@@ -217,6 +229,7 @@ footer {
     padding:20px;
     margin-top: 20px;
 }
+/* rodapé*/
 
 .rede-social a {
     margin: 0 30px;
