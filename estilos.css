@@ -81,6 +81,9 @@ nav ul li a:hover {
 .conteudo {
     display: none;
     margin-top: 10px;
+  }
+  .conteudo ul li {
+    list-style: none;
   }  
 
 
