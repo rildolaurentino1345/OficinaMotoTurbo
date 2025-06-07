@@ -1,8 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    
+}
+
+html {
     box-sizing: border-box;
 }
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
@@ -53,9 +61,9 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.serviço {
+.servico {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 .servico-detalhado h2 {
@@ -74,8 +82,8 @@ nav ul li a:hover {
         opacity: 0;
     }
     to {
-        left: 0;
         opacity: 1;
+        transform: translateX(0);
       }
 }
 .servico-detalhado i {
@@ -105,7 +113,7 @@ section {
 }
 
 
-#img {
+#galeria-img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
@@ -116,9 +124,9 @@ section {
     height: auto;
     border-radius: 8px;
     box-shadow:0 2px 8px rgba(0, 0, 0, 0.2) ;
-    transition: transform 0,3s ease;
+    transition: transform 0.3s ease;
 }
-.moto:hover {
+.moto img:hover {
     transform: scale(1.05);
 }
 
@@ -128,26 +136,37 @@ section {
     flex-flow: wrap;
     justify-content: space-between;  
     background-color: #111;
+    padding: 20px;
+    gap: 20px;
 }
 .formu {
-    display: inline-flex;
+    flex: 1 1 400px;
+    display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     border: 2px solid #ff6600;
-    border-radius: 8px;  
+    border-radius: 8px;
+    margin: 20px;
+    min-width: 300px; 
+    max-width: 600px; 
+    box-sizing: border-box;
 }
 .fale h2, .fale p {
     color: #fff;
 }
 
 iframe {
-    width: 350px;
+    display: block;
+    margin: 30px auto 0 auto;
+    width: 100%;
+    max-width: 500px;
     height: 300px;
     margin-top: 30px;
     border-radius: 8px;
+    box-sizing: border-box;
 }
 button {
-    width: 400px;
+    width: 100%;
     padding: 10px;
     background-color: #ff6600;
     color: #fff;
@@ -221,6 +240,40 @@ textarea {
   }
   /* depoimento de cliente*/
 
+  /*Rede social*/
+  .social {
+    text-align: center;
+    padding: 30px 20px;
+    align-items: center;
+}
+.rede-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rede-social h2 {
+    margin-bottom: 15px;
+}
+
+.rede-social a {
+    margin: 0 10px;
+    color: #111;
+    font-size: 1.5em;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.rede-social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.rede-social a:hover {
+    transform: scale(1.2);
+    color: #ff6600;
+}
+  /* fim rede social*/
+
   /*rodapé*/
 footer {  
     background-color: #111;
@@ -231,18 +284,8 @@ footer {
 }
 /* rodapé*/
 
-.rede-social a {
-    margin: 0 30px;
-    color: #fff;
-    font-size: 1.5em;
-    transition: tranform 0.3s ease, color 0.3s ease;
-}
-.rede-social a:hover {
-    transform: scale(1.2);
-    color: #ff6600;
-}
 @media (max-width: 768px) {
-    .serviço {
+    .servico {
         grid-template-columns: repeat(2, 1fr);
     }
     button {
@@ -250,6 +293,8 @@ footer {
     }
     iframe {
         width:100% ;
+        max-width: 100%;
+        height: 250px;
         margin-bottom: 20px;
     }
     .formu {
@@ -262,6 +307,7 @@ footer {
 @media (max-width: 490px) {
     button {
         width: 100%;
+        height: 200px;
     }
     iframe {
         width:100% ;
@@ -270,7 +316,7 @@ footer {
         width: 100%;
         margin-top: 20px;
     }
-    .serviço {
+    .servico {
         grid-template-columns: 1fr;
     }
 

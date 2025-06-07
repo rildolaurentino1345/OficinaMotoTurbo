@@ -3,201 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oficina Mota Turbo</title>
+    <meta name="description" content="Oficina especializada em motos: revisão, troca de óleo, elétrica, pneus e muito mais em Coronel Fabriciano-MG.">
+    <meta name="author" content="Oficina Moto Turbo">
+
+    <title>Oficina Moto Turbo</title>
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <style>
+        .mapa iframe {
+            width: 600px;
+            height: 450px;
+            border: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1><i class="fas fa-motorcycle"></i> Oficina  <span>Moto</span>  Turbo</h1>  
         <nav>
             <ul>
-                <li><a href="#"> Serviços</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contatos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contatos</a></li>
             </ul>
         </nav>
     </header>
     <section id="banner">
         <h2>Especialistas em manutenção de motos</h2>
         <p>Conserto, revisão, troca de óleo e muito mais!</p>
-
     </section>
 
-    <section id="Servicos">
+    <section id="servicos">
+        <h1>Serviços</h1>
 
-        
-            <h1>Serviços</h1>
-        
-
-        <div class="serviço">
+        <div class="servico">
             <div class="servico-detalhado">
-                 
-                   <i class="fas fa-tools"></i> <h2 onclick="toggleConteudo(this)" >  Revisão completa</h2>
-                 
-
-            <div  class="conteudo">
-                <p>A Revisão Completa da <strong>Oficina Moto Turbo</strong> <br>garante que sua moto esteja segura, econômica e <br>com desempenho total.</p>
-                <h3>O que está incluso:</h3>
-                
-                  <ul>
-                    <li>Troca de óleo e filtro</li>
-                    <li>Verificação dos freios <br>(pastilhas, fluído, disco)</li>
-                    <li>Inspeção e ajuste da corrente</li>
-                    <li>Checagem da parte elétrica (bateria, luzes, buzina)</li>
-                    <li>Alinhamento e balanceamento</li>
-                    <li>Avaliação geral do motor</li>
-                  </ul>
-                
-                <h3>Benefícios para você:</h3>
-                <ul>
-                  <li>Mais segurança na pilotagem</li>
-                  <li>Redução de gastos com manutenção futura</li>
-                  <li>Melhor desempenho e economia de combustível</li>
-                  <li>Maior durabilidade das peças da moto</li>
-                  <li>Valorização da moto em caso de venda</li>
-                </ul>
-            </div>
+                <i class="fas fa-tools"></i> <h2 onclick="toggleConteudo(this)">Revisão completa</h2>
+                <div class="conteudo">
+                    <p>A Revisão Completa da <strong>Oficina Moto Turbo</strong> <br>garante que sua moto esteja segura, econômica e <br>com desempenho total.</p>
+                    <h3>O que está incluso:</h3>
+                    <ul>
+                        <li>Troca de óleo e filtro</li>
+                        <li>Verificação dos freios <br>(pastilhas, fluído, disco)</li>
+                        <li>Inspeção e ajuste da corrente</li>
+                        <li>Checagem da parte elétrica (bateria, luzes, buzina)</li>
+                        <li>Alinhamento e balanceamento</li>
+                        <li>Avaliação geral do motor</li>
+                    </ul>
+                    <h3>Benefícios para você:</h3>
+                    <ul>
+                        <li>Mais segurança na pilotagem</li>
+                        <li>Redução de gastos com manutenção futura</li>
+                        <li>Melhor desempenho e economia de combustível</li>
+                        <li>Maior durabilidade das peças da moto</li>
+                        <li>Valorização da moto em caso de venda</li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="servico-detalhado" >
-                <i class="fas fa-oil-can"></i> <h2 onclick="toggleConteudo(this)" >Troca de óleo e filtros</h2>
-
-                <div  class="conteudo">
+            <div class="servico-detalhado">
+                <i class="fas fa-oil-can"></i> <h2 onclick="toggleConteudo(this)">Troca de óleo e filtros</h2>
+                <div class="conteudo">
                     <p>A <strong>Troca de Óleo e Filtro</strong> é um dos serviços mais importantes para manter sua moto com o motor saudável e funcionando redondo.</p>
                     <h3>O que fazemos:</h3>
                     <ul>
-                      <li>Retirada completa do óleo usado</li>
-                      <li>Substituição pelo óleo ideal para seu modelo de moto</li>
-                      <li>Troca do filtro de óleo (quando aplicável)</li>
-                      <li>Descarte correto do óleo usado (meio ambiente agradece!)</li>
+                        <li>Retirada completa do óleo usado</li>
+                        <li>Substituição pelo óleo ideal para seu modelo de moto</li>
+                        <li>Troca do filtro de óleo (quando aplicável)</li>
+                        <li>Descarte correto do óleo usado (meio ambiente agradece!)</li>
                     </ul>
                     <h3>Benefícios para sua moto:</h3>
                     <ul>
-                      <li>Lubrificação ideal do motor</li>
-                      <li>Redução do desgaste interno</li>
-                      <li>Melhora no desempenho e consumo</li>
-                      <li>Aumento da vida útil do motor</li>
-                      <li>Evita superaquecimento e travamentos</li>
+                        <li>Lubrificação ideal do motor</li>
+                        <li>Redução do desgaste interno</li>
+                        <li>Melhora no desempenho e consumo</li>
+                        <li>Aumento da vida útil do motor</li>
+                        <li>Evita superaquecimento e travamentos</li>
                     </ul>
                 </div>
             </div>
 
             <div class="servico-detalhado">
-                 <i class="fas fa-tachometer-alt"></i><h2 onclick="toggleConteudo(this)"> Alinhamento e balanceamento</h2>
-
-                 <div class="conteudo">
-                     <p>Com o tempo, buracos, lombadas e pancadas podem desalinhar a roda da moto. O serviço de <strong>Alinhamento e Balanceamento</strong> é essencial pra garantir uma pilotagem estável, segura e sem vibrações.</p>
-                     <h3>O que verificamos:</h3>
-                     <ul>
-                       <li>Alinhamento do aro dianteiro e traseiro</li>
-                       <li>Balanceamento da roda (peso correto nas extremidades)</li>
-                       <li>Estado dos pneus e do aro</li>
-                       <li>Verificação da folga dos rolamentos</li>
-                     </ul>
-                     <h3>Benefícios pro piloto:</h3>
-                     <ul>
-                       <li>Mais segurança na pilotagem, principalmente em alta velocidade</li>
-                       <li>Fim das vibrações no guidão</li>
-                       <li>Menor desgaste irregular dos pneus</li>
-                       <li>Economia a longo prazo (evita problemas maiores)</li>
-                       <li>Melhor desempenho nas curvas e frenagens</li>
-                     </ul>
-                 </div>
+                <i class="fas fa-tachometer-alt"></i><h2 onclick="toggleConteudo(this)">Alinhamento e balanceamento</h2>
+                <div class="conteudo">
+                    <p>Com o tempo, buracos, lombadas e pancadas podem desalinhar a roda da moto. O serviço de <strong>Alinhamento e Balanceamento</strong> é essencial pra garantir uma pilotagem estável, segura e sem vibrações.</p>
+                    <h3>O que verificamos:</h3>
+                    <ul>
+                        <li>Alinhamento do aro dianteiro e traseiro</li>
+                        <li>Balanceamento da roda (peso correto nas extremidades)</li>
+                        <li>Estado dos pneus e do aro</li>
+                        <li>Verificação da folga dos rolamentos</li>
+                    </ul>
+                    <h3>Benefícios pro piloto:</h3>
+                    <ul>
+                        <li>Mais segurança na pilotagem, principalmente em alta velocidade</li>
+                        <li>Fim das vibrações no guidão</li>
+                        <li>Menor desgaste irregular dos pneus</li>
+                        <li>Economia a longo prazo (evita problemas maiores)</li>
+                        <li>Melhor desempenho nas curvas e frenagens</li>
+                    </ul>
                 </div>
+            </div>
 
-            <div class="servico-detalhado" >
-                <i class="fas fa-bolt"></i> <h2 onclick="toggleConteudo(this)"> Elétrica e Injeção Eletrônica</h2>
-
-                <div class="conteudo" >
+            <div class="servico-detalhado">
+                <i class="fas fa-bolt"></i> <h2 onclick="toggleConteudo(this)">Elétrica e Injeção Eletrônica</h2>
+                <div class="conteudo">
                     <p>Problemas elétricos são campeões de dor de cabeça pra muito motociclista. Por isso, oferecemos diagnóstico completo na parte <strong>elétrica e de injeção eletrônica</strong>, garantindo que sua moto funcione com precisão e economia.</p>
                     <h3>O que fazemos:</h3>
                     <ul>
-                      <li>Teste da bateria e recarga</li>
-                      <li>Verificação e troca de fusíveis</li>
-                      <li>Correção de curto-circuitos e mau contato</li>
-                      <li>Diagnóstico via scanner da central eletrônica</li>
-                      <li>Ajustes na injeção para melhor desempenho</li>
+                        <li>Teste da bateria e recarga</li>
+                        <li>Verificação e troca de fusíveis</li>
+                        <li>Correção de curto-circuitos e mau contato</li>
+                        <li>Diagnóstico via scanner da central eletrônica</li>
+                        <li>Ajustes na injeção para melhor desempenho</li>
                     </ul>
                     <h3>Benefícios:</h3>
                     <ul>
-                      <li>Evita falhas elétricas inesperadas</li>
-                      <li>Melhor partida e funcionamento do motor</li>
-                      <li>Mais economia de combustível</li>
-                      <li>Redução de falhas e perda de potência</li>
-                      <li>Mais segurança em viagens longas</li>
+                        <li>Evita falhas elétricas inesperadas</li>
+                        <li>Melhor partida e funcionamento do motor</li>
+                        <li>Mais economia de combustível</li>
+                        <li>Redução de falhas e perda de potência</li>
+                        <li>Mais segurança em viagens longas</li>
                     </ul>
                 </div>
             </div>
 
             <div class="servico-detalhado">
-                <i class="fas fa-water"></i><h2 onclick="toggleConteudo(this)"> Lavagem de motos</h2>
-
+                <i class="fas fa-water"></i><h2 onclick="toggleConteudo(this)">Lavagem de motos</h2>
                 <div class="conteudo">
                     <p>Na <strong>Oficina Moto Turbo</strong>, a lavagem é feita com cuidado profissional, usando produtos de qualidade e sem agredir a pintura ou componentes da moto.</p>
                     <h3>Serviços inclusos:</h3>
                     <ul>
-                      <li>Lavagem completa da carenagem, rodas e escapamento</li>
-                      <li>Limpeza detalhada do motor (com proteção)</li>
-                      <li>Desengraxante nas partes inferiores</li>
-                      <li>Enxágue e secagem com ar comprimido</li>
-                      <li>Aplicação de silicone para brilho e proteção</li>
+                        <li>Lavagem completa da carenagem, rodas e escapamento</li>
+                        <li>Limpeza detalhada do motor (com proteção)</li>
+                        <li>Desengraxante nas partes inferiores</li>
+                        <li>Enxágue e secagem com ar comprimido</li>
+                        <li>Aplicação de silicone para brilho e proteção</li>
                     </ul>
                     <h3>Vantagens pra você:</h3>
                     <ul>
-                      <li>Visual impecável e valorizado</li>
-                      <li>Evita ferrugem e desgaste precoce</li>
-                      <li>Remove graxa, lama e resíduos corrosivos</li>
-                      <li>Ajuda a identificar vazamentos e danos</li>
-                      <li>Mais prazer e orgulho de pilotar</li>
+                        <li>Visual impecável e valorizado</li>
+                        <li>Evita ferrugem e desgaste precoce</li>
+                        <li>Remove graxa, lama e resíduos corrosivos</li>
+                        <li>Ajuda a identificar vazamentos e danos</li>
+                        <li>Mais prazer e orgulho de pilotar</li>
                     </ul>
                 </div>
             </div>
 
             <div class="servico-detalhado" id="service">
-                <i class="fas fa-dot-circle"></i> <h2 onclick="toggleConteudo(this)" >Pneus e rodas</h2>
-
+                <i class="fas fa-dot-circle"></i> <h2 onclick="toggleConteudo(this)">Pneus e rodas</h2>
                 <div class="conteudo">
                     <p>Os <strong>pneus e rodas</strong> são os únicos pontos de contato da moto com o chão. Aqui na <strong>Oficina Moto Turbo</strong>, fazemos uma checagem completa pra garantir segurança, aderência e performance.</p>
                     <h3>O que fazemos:</h3>
                     <ul>
-                      <li>Verificação do desgaste dos pneus</li>
-                      <li>Troca de pneus (com calibragem correta)</li>
-                      <li>Inspeção de furos, rachaduras ou bolhas</li>
-                      <li>Alinhamento de rodas</li>
-                      <li>Balanceamento dinâmico</li>
-                      <li>Conserto ou substituição de aro torto</li>
+                        <li>Verificação do desgaste dos pneus</li>
+                        <li>Troca de pneus (com calibragem correta)</li>
+                        <li>Inspeção de furos, rachaduras ou bolhas</li>
+                        <li>Alinhamento de rodas</li>
+                        <li>Balanceamento dinâmico</li>
+                        <li>Conserto ou substituição de aro torto</li>
                     </ul>
                     <h3>Benefícios pro piloto:</h3>
                     <ul>
-                      <li>Mais segurança em curvas e frenagens</li>
-                      <li>Menor risco de queda por pneu careca ou mal calibrado</li>
-                      <li>Economia de combustível com rodagem suave</li>
-                      <li>Mais conforto e estabilidade na pilotagem</li>
-                      <li>Evita desgaste prematuro da suspensão</li>
+                        <li>Mais segurança em curvas e frenagens</li>
+                        <li>Menor risco de queda por pneu careca ou mal calibrado</li>
+                        <li>Economia de combustível com rodagem suave</li>
+                        <li>Mais conforto e estabilidade na pilotagem</li>
+                        <li>Evita desgaste prematuro da suspensão</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="Sobre">
+    <section id="sobre">
         <h2>Sobre a Oficina</h2>
         <p>Mais de 10 anos cuidando da sua moto com atenção, honestidade e preço justo.</p>
-
     </section>
 
-</section>
-
-<section id="img">
-
-<div class="moto"><img src="imagens/moto1.jpg" alt=""></div>
-<div class="moto"><img src="imagens/moto2.jpg" alt="moto"></div>
-<div class="moto"><img src="imagens/moto3.jpg" alt=""></div>
-<div class="moto"><img src="imagens/moto4.jpg" alt=""></div>
-
-</section>
+    <section id="galeria-img">
+        <div class="moto"><img src="imagens/moto1.jpg" alt="Moto após manutenção"></div>
+        <div class="moto"><img src="imagens/moto2.jpg" alt="moto em manutenção"></div>
+        <div class="moto"><img src="imagens/moto3.jpg" alt="moto entregue ao dono"></div>
+        <div class="moto"><img src="imagens/moto4.jpg" alt="moto em exposição"></div>
+    </section>
 
     <section id="contato">
         <div class="fale">
@@ -205,79 +195,94 @@
             <p>📞 (31) 99999-9999</p>
             <p>📍 Rua das Motos, 123 - Coronel Fabriciano - MG</p>
             <div class="mapa">
-                
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.715020387923!2d-42.6266078!3d-19.5174713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDMxJzAyLjkiUyA0MsKwMzcnMzUuOCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" 
-        width="600" 
-        height="450" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy">
-</iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.715020387923!2d-42.6266078!3d-19.5174713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDMxJzAyLjkiUyA0MsKwMzcnMzUuOCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
             </div>
         </div>
 
-        <div class="rede-social">
-          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://wa.me/5599999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        </div>
 
-        <div class="formu">
-            <label for="seu Nome">Digite Seu Nome</label>
-            <input type="text" name="nome" placeholder="Seu nome" required>
-            <label for="tel">Digite seu telefone</label>
-            <input type="tel" name="telefone" placeholder="Telefone " required>
+
+        <form class="formu" method="POST" action="#">
+            <label for="nome">Digite Seu Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            <label for="telefone">Digite seu telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Telefone " required>
             <label for="email">Digite seu email</label>
             <input type="email" id="email" name="email" placeholder="Seuemail@exemplo.com" required>
             <label for="mensagem">Mensagem</label>
             <textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite sua mensagem aqui" required></textarea>
-            <button type="submit">Enviar</button>
-        </div>
-    </section>
-    <section id="depoimentos">
-      <h2>O que dizem nossos clientes</h2>
-      <div class="depoimentos-grid">
-        <div class="clientes">
-          <p>⭐⭐⭐⭐⭐</p>
-          <h3>Carlos Henrique – Yamaha Fazer 250</h3>
-          <p>"Levei minha moto pra revisão completa e ficou zerada! Atendimento rápido e serviço honesto. Agora só levo aqui."</p>
-        </div>
-        <div class="clientes">
-          <p>⭐⭐⭐⭐⭐</p>
-          <h3>Juliana Silva – Honda Biz 110i</h3>
-          <p>"Fiz a troca de óleo e alinhamento, e a moto ficou uma seda! O pessoal é caprichoso demais. Recomendo sem medo!"</p>
-        </div>
-        <div class="clientes">
-          <p>⭐⭐⭐⭐⭐</p>
-          <h3>André Souza – CG Titan 160</h3>
-          <p>"A elétrica da minha moto tava toda bagunçada... resolveram tudo em um dia! Nunca vi uma oficina tão organizada."</p>
-        </div>
-        <div class="clientes">
-          <p>⭐⭐⭐⭐⭐</p>
-          <h3>Paulo Ricardo – XRE 300</h3>
-          <p>"Balanceamento top, preço justo e explicaram tudo com paciência. Levo a moto aqui até pra lavar, é confiança total."</p>
-        </div>
-        <div class="clientes">
-          <p>⭐⭐⭐⭐⭐</p>
-          <h3>Fernanda Rocha – NXR Bros 160</h3>
-          <p>"Melhor oficina da região! Atendimento 10, profissionais de verdade. Minha moto ficou impecável depois da revisão."</p>
-        </div>
-      </div>
+            <button type="submit" onclick="event.preventDefault(); enviarFormulario()">Enviar</button>
+
+        </form>
     </section>
     
+    <section id="depoimentos">
+        <h2>O que dizem nossos clientes</h2>
+        <div class="depoimentos-grid">
+            <div class="clientes">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Carlos Henrique – Yamaha Fazer 250</h3>
+                <p>"Levei minha moto pra revisão completa e ficou zerada! Atendimento rápido e serviço honesto. Agora só levo aqui."</p>
+            </div>
+            <div class="clientes">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Juliana Silva – Honda Biz 110i</h3>
+                <p>"Fiz a troca de óleo e alinhamento, e a moto ficou uma seda! O pessoal é caprichoso demais. Recomendo sem medo!"</p>
+            </div>
+            <div class="clientes">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>André Souza – CG Titan 160</h3>
+                <p>"A elétrica da minha moto tava toda bagunçada... resolveram tudo em um dia! Nunca vi uma oficina tão organizada."</p>
+            </div>
+            <div class="clientes">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Paulo Ricardo – XRE 300</h3>
+                <p>"Balanceamento top, preço justo e explicaram tudo com paciência. Levo a moto aqui até pra lavar, é confiança total."</p>
+            </div>
+            <div class="clientes">
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Fernanda Rocha – NXR Bros 160</h3>
+                <p>"Melhor oficina da região! Atendimento 10, profissionais de verdade. Minha moto ficou impecável depois da revisão."
+                </p>
 
+            </div>
+        </div>
+    </section>
+    <section class="social">
+       <div class="rede-social">
+        <h2>Acompanhe nossas redes sociais</h2>  
+        <div class="rede-social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/5599999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+</section>
 
 
     <footer>
         <p>&copy; 2025 Oficina Moto Turbo. Todos os direitos reservados.</p>
     </footer>
 
-    <script>
-        function toggleConteudo(titulo) {
-          const conteudo = titulo.nextElementSibling;
-          conteudo.style.display = conteudo.style.display === 'block' ? 'none' : 'block';
-        }
-      </script>
-    
+  <script>
+    function toggleConteudo(titulo) {
+        const conteudo = titulo.nextElementSibling;
+        conteudo.style.display = (conteudo.style.display === 'block') ? 'none' : 'block';
+    }
+
+    // Ocultar todos ao carregar
+    document.querySelectorAll('.conteudo').forEach(div => {
+        div.style.display = 'none';
+    });
+
+      function enviarFormulario() {
+    alert("Mensagem enviada com sucesso! Em breve entraremos em contato.");
+  }
+</script>
+<script src="script.js"></script>
+
+
 </body>
 </html>
